@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío maquetado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/b1e44446be.js" crossorigin="anonymous"></script>
+  </head>
+   <body>
+    <header>
+        <nav class="nav">
+            <div class="logo-container">
+                <img src="./png/logoheader.png" width="75 px" class="logo">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="hamburguer-btn"><i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-list">
+                <li><a href="#quiensoy">Quién soy</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contactame">Contáctame</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <div class="welcome__title-container">
+            <h1 class="welcome__title">Bienvenido a mi sitio</h1>
+        </div>
+        <div class="circle">
+            <img src="./png/main.png" alt="imagen welcome" class="welcome__logo">
+        </div>   
+    </section>
+    
+    <section class="about-me">
+        <div class="about-me__container">
+            <h2 class="about-me__title">Soy Ignacio</h2>
+            <p class="about-me__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis id quisquam eveniet eos assumenda saepe quae cumque sapiente unde! Soluta alias dicta, tempore dolorum quod officiis similique nostrum. Maiores, obcaecati!Laboriosam iste aliquid minus deleniti alias. Laboriosam iste aliquid minus deleniti alias.</p>
+        </div>
+        <div class="about-me__logo-container">
+            <img src="./png/check.png" alt="imagen main" class="about-me__logo">
+        </div>
+    </section>
+
+    <section class="servicios">
+        <div class="servicios__title-container">
+            <h2 class="servicios__title">Mis servicios</h2>
+        </div>
+        <div class="servicios__container">
+            <div class="servicios__uno">
+                <img src="./png/pc.png" alt="logo compu" class="pc">
+                <h3 class="servicios__subtitulo">Hago cosas</h3>
+                <p class="servicios__parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam iste aliquid minus deleniti alias. Debitis amet recusandae ipsam mollitia molestiae hic, nobis eius, eum perferendis quisquam ut, repudiandae iste qui? </p>
+            </div>
+            <div class="servicios__dos">
+                <img src="./png/pc.png" alt="logo compu" class="pc">
+                <h3 class="servicios__subtitulo">Y más cosas</h3>
+                <p class="servicios__parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam iste aliquid minus deleniti alias. Debitis amet recusandae ipsam mollitia molestiae hic, nobis eius, eum perferendis quisquam ut, repudiandae iste qui? </p>
+            </div>
+            <div class=" servicios__tres">
+                <img src="./png/pc.png" alt="logo compu" class="pc">
+                <h3 class="servicios__subtitulo">Y otras cosas más</h3>
+                <p class="servicios__parrafo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam iste aliquid minus deleniti alias. Debitis amet recusandae ipsam mollitia molestiae hic, nobis eius, eum perferendis quisquam ut, repudiandae iste qui? </p>
+            </div>
+        </div>
+   </section>
+   
+   <section class="form">
+        <div class="form__title-container">
+            <h2 class="form__title">Contáctame</h2>
+        </div>
+        <div class="form__container">
+            <div class="form__fieldset">
+                <label class="form__label-nombre" for="name">Nombre</label>
+                <input class="form__input" id="nombre" type="nombre">
+            </div>
+            <div class="form__fieldset">
+                <label class="form__label-email" for="email">Email</label>
+                <input class="form__input" id="email" type="email">
+            </div>
+            <div class="form__fieldset">
+                <label class="form__label-mensaje" for="message">Mensaje</label>
+                <textarea class="form__textarea" id="message"></textarea>
+            </div>
+            <div class="form__button-section">
+                <button class="form__button">Enviar</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer__logo-container">
+            <img src="./png/logoheader.png" alt="logo header-footer" class="footer_logo">
+            <p class="footer_copyright">© 2024 Ignacio</p>
+        </div>
+        <div class="footer__redes-container">
+            <div class="footer__ig"><a href=" https://www.instagram.com/nachosegovia98/"><img src="./png/instagram.png"></a><p>Instagram</p></div>
+            <div class="footer__li"><a href=" https://www.linkedin.com/in/ignacio-segovia-0820602b6/"><img src="./png/linkedin.png"></a><p>Linkedin</p></div>
+            <div class="footer__gh"><a href=" https://github.com/ignacio-segovia"></a><img src="./png/github.png"></a><p>Github</p></div>
+        </div>
+    </footer>
+  </body>
+</html>
